@@ -1,0 +1,116 @@
+body{
+  background-color: hsl(30, 54%, 90%);
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipe{
+  background-color: white;
+  width: 650px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items:start;
+  padding: 50px 50px; 
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.photo{
+  width: 650px;
+  border-radius: 10px;
+}
+
+.title{
+  font-family: "young serif", serif;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.description{
+  font-family: outfit;
+  font-size: 16px;
+  color: hsl(30, 10%, 34%);
+  line-height: 25px;
+}
+
+.preparation{
+  background-color: hsl(330, 100%, 98%);
+  width: 625px;
+  height: 150px;
+  border-radius: 10px;
+  font-family: outfit;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 25px;
+  padding-bottom: 20px;
+}
+
+.preparation-time{
+  color: hsl(332, 51%, 32%);
+  padding-left: 20px;
+  font-weight: 600;
+}
+
+.preparation-list{
+  color: hsl(332, 51%, 32%);
+}
+
+.ingredients-list span,
+.preparation-list span,
+.text{
+  color: hsl(30, 10%, 34%);
+  font-family: outfit;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.instructions-list{
+  font-weight: 600;
+  font-family: outfit;
+}
+
+.steps{
+  color: hsl(30, 10%, 34%);
+  font-size: 16px;
+}
+
+.preparation-minutes{
+  color: hsl(30, 10%, 34%);
+  font-size: 16px;
+}
+
+.ingredients-title,
+.instructions-title,
+.nutrition-title{
+  color: hsl(14, 45%, 36%);
+  font-family: "young serif", serif;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.ingredients-list, 
+.number-list{
+  color: hsl(14, 45%, 36%);
+  margin-left: 15px;
+}
+
+hr{
+  width: 650px;
+}
+
+.table{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 30px;
+  font-family: outfit;
+}
+
+.amount{
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
